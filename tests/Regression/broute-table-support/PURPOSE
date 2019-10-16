@@ -1,0 +1,5 @@
+PURPOSE of /CoreOS/firewalld/Regression/broute-table-support
+Description: Test for BZ#1752727 (RHEL 7.7 rebase of firewalld removed support for)
+Author: Tomas Dolezal <todoleza@redhat.com>
+Bug summary: RHEL 7.7 rebase of firewalld removed support for the ebtables broute table
+Bugzilla link: https://bugzilla.redhat.com/show_bug.cgi?id=1752727

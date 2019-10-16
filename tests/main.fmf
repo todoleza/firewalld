@@ -1,0 +1,7 @@
+component: firewalld
+contact: Tomas Dolezal <todoleza@redhat.com>
+test: make run
+duration: 5m
+relevancy: |
+    distro < rhel-7: False
+tier: 1
