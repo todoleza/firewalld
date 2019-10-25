@@ -1,0 +1,29 @@
+specfile_path: firewalld.spec
+synced_files:
+    - tmt.spec
+    - packit.yaml
+    - tests/*
+upstream_project_name: firewalld
+downstream_package_name: firewalld-fork
+
+#actions:
+#  create-archive:
+#  - make packit-tarball
+#  - make packit-path
+
+jobs:
+- job: copr_build
+  trigger: pull_request
+  metadata:
+    targets:
+    - fedora-29-x86_64
+    - fedora-30-x86_64
+    - fedora-rawhide-x86_64
+
+- job: tests
+  trigger: pull_request
+  metadata:
+    targets:
+    - fedora-29-x86_64
+    - fedora-30-x86_64
+    - fedora-rawhide-x86_64
