@@ -1,6 +1,0 @@
-description: |
-    Bug summary: [RFE] firewalld: Implement nftables backend
-    Bugzilla link: https://bugzilla.redhat.com/show_bug.cgi?id=1509026
-relevancy+: |
-    distro = rhel-7: False
-summary: Test for BZ#1509026 ([RFE] firewalld Implement nftables backend)
