@@ -9,6 +9,6 @@ provision:
     how: local
 prepare:
     how: ansible
-    playbooks: ci/provision.yml
+    playbooks: ci/packages.yml
 execute:
     how: beakerlib

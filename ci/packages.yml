@@ -3,4 +3,13 @@
   - name: Install necessary dependencies
     dnf:
       state: present
-      name: fmf
+      name:
+        - fmf
+        - python-slip-dbus
+        - iptables
+        - nftables
+        - ebtables
+        - ipset
+        - dbus-x11
+        - gtk3
+        - hicolor-icon-theme
