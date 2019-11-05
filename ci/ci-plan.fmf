@@ -5,8 +5,6 @@ discover:
     repository: https://github.com/todoleza/firewalld-tests
     revision: master
     #filter: 'tier: 1'
-provision:
-    how: local
 prepare:
     how: ansible
     playbooks: ci/packages.yml
